@@ -1,9 +1,3 @@
-"""
-ui.py
-Only UI layout and widgets live here.
-All button logic is imported from functions.py — this file just wires buttons to it.
-"""
-
 import customtkinter as ctk
 import functions
 
@@ -11,7 +5,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 # Keeps track of the checkbox variable + row widget tied to each locked item
-item_rows = []  # list of dicts: {"item": {...}, "var": BooleanVar, "row": CTkFrame}
+item_rows = []  # list of dicts: 
 
 
 def add_item_to_list(item):
