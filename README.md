@@ -1,4 +1,4 @@
-# Lock Manager
+# Lock Manager v1.0.0
 
 Lock Manager is a Windows desktop application that lets you restrict access to folders and executable files using real NTFS permission changes — not just hiding files. Built with Python for the interface and a lightweight C DLL for the underlying lock/unlock operations.
 
