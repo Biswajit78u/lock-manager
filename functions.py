@@ -1,9 +1,3 @@
-"""
-functions.py
-All logic for the Lock Manager app lives here.
-The UI file only imports and calls these functions — it contains no logic itself.
-"""
-
 from tkinter import filedialog, messagebox, simpledialog
 import json
 import os
